@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Amos",
+        "age": 10,
+        "breed": "Helig birma",
+        "about": "Amos är en tuff katt som varit med om mycket. Älskar människor och godis.",
+        "image": "/image/katt2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Alfons",
+        "age": 3,
+        "breed": "Helig birma",
+        "about": "Alfons är en nyfiken katt som gärna provsmakar på allt han kan hitta. "
+        ,
+        "image": "/image/katt1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Skurt",
+        "age": 4,
+        "breed": "Helig birma",
+        "about": "Skurt är en liten men självsäker katt. Älskar att bli borstad och att gosa.",
+        "image": "/image/katt3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Brasse",
+        "age": 5,
+        "breed": "Bondkatt",
+        "about": "Brasse gillar att vara för sig själv, förutom när det är lekdags. Då är det full fart.",
+        "image": "/image/katt4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sören",
+        "age": 7,
+        "breed": "Bondkatt",
+        "about": "Sören är brorsa med Sam och har levt hela sitt liv med honom. De behöver varandra. ",
+        "image": "/image/katt5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Sam",
+        "age": 7,
+        "breed": "Bondkatt",
+        "about": "Sam är brorsa med Sören och har levt hela sitt liv med honom. De behöver varandra. ",
+        "image": "/image/katt6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Malte",
+        "age": 16,
+        "breed": "Norsk skogskatt",
+        "about": "Malte ser stor och farlig ut, men är världens snällaste katt. Vår äldsta katt!",
+        "image": "/image/katt7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Prinsen",
+        "age": 10,
+        "breed": "Bondkatt",
+        "about": "Prinsen är en hefty chonker, som har en viss attityd. Väldigt charmig.",
+        "image": "/image/katt8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Bosse",
+        "age": 9,
+        "breed": "Bondkatt",
+        "about": "Bosse är en riktigt skön lirare. Älskar godis, kel och att leka ibland.",
+        "image": "/image/katt9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Bullen",
+        "age": 9,
+        "breed": "Bondkatt",
+        "about": "Bullen är en stor katt. Spenderar sin mesta tid med att sova, eller vila.",
+        "image": "/image/katt10.jpg"
+    }
+]

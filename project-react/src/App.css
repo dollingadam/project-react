@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit, sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navli {
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.header-about {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header-new {
+    text-align: center;
+    padding-top:  2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.images {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+.cards {
+padding: 1rem;
+
+}
+
+.cards2 {
+border-bottom: 2px solid black;
+
+}
+
+.ras {
+    padding-top: 0.1rem;
+    font-size: 0.9rem;
+}
+.om {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.book {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.3rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 3rem;
+    width: 100%;
+    background-color: black;
+
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.link  {
+    color: white;
+    border: 2px solid pink;
+    border-radius: 15px;
+    padding: 0.5rem;
+    width: 100px;
+    text-align: center;
+    margin: 0.3rem;
+}
+
+.form {
+    text-align: center;
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding: 2rem;
+    background-color: #CE783C;
+}
+@media (min-width: 620px ) {
+    .form {
+        width: 50%;
+    }
+}
+@media (min-width: 865px ) {
+    .form {
+        width: 40%;
+        height: 57vh;
+        margin-bottom: 13vh;
+    }
+}
+
+
+.inp {
+    margin-top: 2vw;
+    padding: 0.2rem;
+}
+
+.check {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 22vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 25vh;
+}
+.new-btn {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
