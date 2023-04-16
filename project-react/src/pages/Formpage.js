@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
-
 function FormPage() {
   const [fullName, setFullName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
@@ -25,13 +24,7 @@ function FormPage() {
   return (
     <>
       {selectedItem && (
-        <p>
-          Toppen
-          <p>
-            Toppen
-            {selectedItem.name}, {selectedItem.age}
-          </p>
-        </p>
+        <h2 className="header-new">Boka besök för {selectedItem.name}</h2>
       )}
       <div>
         {isFormSubmitted ? (

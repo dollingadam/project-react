@@ -28,7 +28,8 @@ function FetchComp() {
               <Card.Text className="om">{item.about}</Card.Text>
               <Link
                 className="book"
-                to={{ pathname: "/form", state: { item } }}
+                to={`/cats/${item.name}`}
+                state={{ item: item }}
               >
                 Boka besök
               </Link>

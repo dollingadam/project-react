@@ -35,7 +35,7 @@ function App() {
           <Route path="/cats" element={<Cats />} />
           <Route path="/form" element={<FormPage />} />
           <Route path="*" element={<Error />} />
-          <Route path="/cats/:id" element={<FormPage />} />
+          <Route path="/cats/:name" element={<FormPage />} />
         </Routes>
       </UserInfo.Provider>
       <FooTer />
